@@ -1,3 +1,6 @@
-document.querySelector('h1').addEventListener('click', function() {
-    alert('Anda mengklik judul!');
-});
+const judul = document.querySelector('h1');
+if (judul) {
+    judul.addEventListener('click', function() {
+        alert('anda mengklik judul!');
+    });
+}
